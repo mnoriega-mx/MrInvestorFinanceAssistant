@@ -2,21 +2,23 @@
 .container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 6rem;
     height: 100vh;
     width: 100vw;
-    background-color: #c6e3fa;
+    background-color: #ffffff83;
 }
 
 .chatMainContainer {
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: none;
+    border-radius: 25px;
 }
 .chatWrapper {
     display: flex;
     height: 100%;
+    width: 80%;
 }
 
 .chatContainer {
@@ -32,19 +34,21 @@
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     border: none;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: coral;
+    background-color: transparent;
 }
 
 .title {
-    font-size: 60px;
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 .chatMessageList {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    background: #ffffffe9;
+    background: rgb(255, 255, 255);
     border: none;
 }
 
