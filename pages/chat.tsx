@@ -93,7 +93,11 @@ export default function Chat() {
 
     return (
         <div className={styles.container}>
+            <div className={styles.titleContainer}>
+                <p className={styles.title}>Mr. Investor</p>
+            </div>
             <div className={styles.chatWrapper}>
+
                 <div className={styles.chatContainer}>
                     <MainContainer className={styles.chatMainContainer}>
                         <ChatContainer>
