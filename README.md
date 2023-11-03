@@ -1,6 +1,8 @@
 An intelligent finance assistant chatbot to educate and guide people about the different kind of investment funds.
 
-
+<div align="left">
+  <img src="public/mrinvestorchat.png" height="400" alt="mrinvestor"  />
+</div>
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
